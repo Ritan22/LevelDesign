@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3471488524847028831}
   - component: {fileID: 4405541116327905493}
   - component: {fileID: 7669160694408560191}
+  - component: {fileID: 4872731530878646247}
   m_Layer: 0
   m_Name: pressure plate
   m_TagString: Untagged
@@ -71,6 +72,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gabbia: {fileID: 0}
   mesh: {fileID: 6647331741868503222}
+  canvas: {fileID: 0}
+--- !u!114 &4872731530878646247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6567353077672078199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f32a210a29ea4a5429c3cce19d58499b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gabbia: {fileID: 0}
+  mesh: {fileID: 6647331741868503222}
+  canvas: {fileID: 0}
 --- !u!1 &6647331741868503222
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +397,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -728,7 +745,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
